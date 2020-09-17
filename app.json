@@ -1,0 +1,13 @@
+{
+    "name": "Wiki-API",
+    "description": "Unofficial API of Wikipedia.",
+    "author": "Nivash",
+    "keywords": [
+        "flask",
+        "python",
+        "Wikipedia",
+        "wiki",
+        "json"
+    ],
+    "repository": "https://github.com/XI11A/wiki-api"
+}
