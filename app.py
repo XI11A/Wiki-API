@@ -19,7 +19,7 @@ def get_wiki_data(search_query):
     def home():
         query = (request.args.get('query'))
         title, url, summary = get_wiki_data(query)
-        return jsonify({"query":query,"title":title,"wiki_url";url,"summary":summary})
+        return jsonify({"query":query,"title":title,"wiki_url":url,"summary":summary})
 
     if __name__ == '__main__':
         app.debug=True
