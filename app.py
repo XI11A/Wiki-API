@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 import wikipedia
 app = Flask(__name__)
-app.url_map.strict.slashes = False
+app.url_map.strict_slashes = False
 
 def get_wiki_data(search_query):
     got_query = (wikipedia.search(search_query)[0])
