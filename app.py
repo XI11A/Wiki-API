@@ -12,15 +12,15 @@ def get_wiki_data(search_query):
     summary = (wikipedia.summary(got_query, sentences=1))
     return title,wiki_url,summary
 
-    @app.route('/')
-    def index():
-        return "API is UP and working fine"
+@app.route('/')
+def index():
+    return "API is UP and working fine"
 
-    @app.route('/<query>')
-    def home(query):
-        title, url, summary = get_wiki_data(query)
-        return jsonify({"query":query,"title":title,"wiki_url":url,"summary":summary})
+@app.route('/<query>')
+def home(query):
+    title, url, summary = get_wiki_data(query)
+    return jsonify({"query":query,"title":title,"wiki_url":url,"summary":summary})
 
-    if __name__ == '__main__':
-        app.debug=True
-        app.run(host='0.0.0.0',port=5000)        
+if __name__ == '__main__':
+    app.debug=True
+    app.run(host='0.0.0.0',port=5000)        
