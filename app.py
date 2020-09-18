@@ -5,7 +5,7 @@ app = Flask(__name__)
 app.url_map.strict_slashes = False
 
 def get_wiki_data(search_query):
-    got_query = (wikipedia.search(search_query))
+    got_query = (wikipedia.search(search_query)[0])
     page = wikipedia.page(got_query)
     title = page.title
     wiki_url = page.url
