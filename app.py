@@ -11,7 +11,7 @@ def get_wiki_data(search_query):
     summary = (wikipedia,summary(got_query, sentences=1))
     return title,wiki_url,summary
 
-    @app.route("/")
+    @app.route('/')
     def index():
         return "API is UP and working fine"
 
