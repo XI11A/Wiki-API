@@ -16,8 +16,9 @@ def get_wiki_data(search_query):
 def index():
     return "API is UP and working fine"
 
-@app.route('/<query>')
-def home(query):
+@app.route('/api')
+def home():
+    query = (request.args.get('query'))
     title, url, summary = get_wiki_data(query)
     return jsonify({"query":query,"title":title,"wiki_url":url,"summary":summary})
 
