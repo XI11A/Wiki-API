@@ -7,7 +7,7 @@ def get_wiki_data(search_query):
     got_query = (wikipedia.search(search_query)[0])
     page = wikipedia.page(got_query)
     title = page.title
-    wiki_url = page.url_map
+    wiki_url = page.url
     summary = (wikipedia,summary(got_query, sentences=1))
     return title,wiki_url,summary
 
