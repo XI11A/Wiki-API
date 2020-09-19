@@ -1,4 +1,4 @@
-# wiki-api
+# Wiki API
 An Simple Wikipedia API Build with Flask &amp; Python to get Wiki data in form of JSON Format
 
 ### Show some :heart: and :star: the repo to support the project
@@ -52,7 +52,7 @@ Navigate to 127.0.0.1:5000 to see the Homepage
 ```sh
 http://127.0.0.1:5000/api?query=<insert_your_query>
 ```
-**Example:** Navigate to http://127.0.0.1:5000/api?query=google to get a JSON response of wiki data in return.
+**Example:** Navigate to https://wiki.nivash.me/api?query=google to get a JSON response of wiki data in return.
 
 ----
 
