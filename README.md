@@ -60,7 +60,7 @@ http://127.0.0.1:5000/api?query=<insert_your_query>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/XI11A/wiki-api/tree/master)
 
-**Note:** Heroku gives US/Europe servers which won't be able to fetch all songs flawlessly. Use any Indian VPS for accurate results.
+**Note:** Heroku gives US/Europe servers which won't be able to fetch all Query flawlessly. Use any Indian VPS for accurate results.
 
 ---
 
