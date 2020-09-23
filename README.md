@@ -22,10 +22,10 @@ An Simple Wikipedia API Build with Flask &amp; Python to get Wiki data in form o
 
 ```json
 {
-"query":"google",
-"summary":"Google, LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.",
-"title":"Google",
-"wiki_url":"https://en.wikipedia.org/wiki/Google"
+  "query": "google",
+  "summary": "Google, LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.",
+  "title": "Google",
+  "wiki_url": "https://en.wikipedia.org/wiki/Google"
 }
 ```
 
