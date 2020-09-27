@@ -14,7 +14,7 @@ def get_wiki_data(search_query):
 
 @app.route('/')
 def index():
-    return "API is UP and working fine"
+    return "<html><head><title>API is Workin</title></head><body><h3>Made with 💚 by <a href="https://nivash.me">Nivash</a></h3><br>API is UP and working fine</body></html>"
 
 @app.route('/api')
 def home():
