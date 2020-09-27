@@ -14,7 +14,7 @@ def get_wiki_data(search_query):
 
 @app.route('/')
 def index():
-    return "Made with 💚 by Nivash /n API is UP and working fine!!!"
+    return "Made with 💚 by Nivash. API is UP and working fine!!!"
 
 @app.route('/api')
 def home():
